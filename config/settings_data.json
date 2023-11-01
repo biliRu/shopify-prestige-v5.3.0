@@ -117,7 +117,7 @@
           "9a1dcf16-8a70-4cfa-8153-1712feaf5567"
         ],
         "settings": {
-          "use_sticky_header": false,
+          "use_sticky_header": true,
           "logo_max_width": 270,
           "mobile_logo_max_width": 190,
           "show_currency_selector": true,
