@@ -55,8 +55,8 @@
       "sidebar-menu": {
         "type": "sidebar-menu",
         "settings": {
-          "primary_menu": "freddie",
-          "secondary_menu": "secondary-mobile-nav",
+          "primary_menu": "",
+          "secondary_menu": "",
           "show_social_media": true
         }
       },
@@ -78,11 +78,9 @@
             "type": "mega_menu",
             "settings": {
               "navigation_mega_menu": "Everyday",
-              "push_1_image": "shopify:\/\/shop_images\/Thumnail_680x_1_copy.png",
               "push_1_heading": "The Glovemaker's Art",
               "push_1_subheading": "How we do it",
               "push_1_url": "shopify:\/\/pages\/the-glovemakers-art",
-              "push_2_image": "shopify:\/\/shop_images\/Cornelia_James_0252.jpg",
               "push_2_heading": "Our story",
               "push_2_subheading": "",
               "push_2_url": "shopify:\/\/blogs\/information\/story"
@@ -92,7 +90,6 @@
             "type": "mega_menu",
             "settings": {
               "navigation_mega_menu": "Occasions",
-              "push_1_image": "shopify:\/\/shop_images\/4-2-12_Jennifer_Endom_002.jpg",
               "push_1_heading": "As seen on",
               "push_1_subheading": "CJ Press & Features",
               "push_1_url": "shopify:\/\/blogs\/press-features",
@@ -105,7 +102,6 @@
             "type": "mega_menu",
             "settings": {
               "navigation_mega_menu": "About",
-              "push_1_image": "shopify:\/\/shop_images\/preview_image_680x_b331dcb6-009f-46be-8db8-4d88ca9028f3.jpg",
               "push_1_heading": "As seen on",
               "push_1_subheading": "CJ through the years",
               "push_1_url": "https:\/\/www.corneliajames.com\/blogs\/press-features",
@@ -122,7 +118,6 @@
         ],
         "settings": {
           "use_sticky_header": false,
-          "logo": "shopify:\/\/shop_images\/Montserrat_1.png",
           "logo_max_width": 270,
           "mobile_logo_max_width": 190,
           "show_currency_selector": true,
@@ -133,8 +128,7 @@
           "enable_transparent_header": true,
           "enable_transparent_header_collection": false,
           "show_transparent_header_border": true,
-          "transparent_text_color": "#ffffff",
-          "transparent_logo": "shopify:\/\/shop_images\/Montserrat_1_3cc91ca5-7b64-48c8-94bc-b32345e35219.png"
+          "transparent_text_color": "#ffffff"
         }
       },
       "footer": {
@@ -185,9 +179,9 @@
         "type": "popup",
         "settings": {
           "show_popup": false,
-          "show_only_on_index": true,
-          "show_only_for_visitors": true,
-          "show_only_once": true,
+          "show_only_on_index": false,
+          "show_only_for_visitors": false,
+          "show_only_once": false,
           "title": "Popup",
           "content": "<p>You can use this popup to display some useful information to your customers.<\/p>",
           "show_newsletter": true,
@@ -197,29 +191,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "10830403595879607806": {
-        "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-core\/92a082e5-b297-4e88-b428-ac96cbc505f9",
-        "disabled": false,
-        "settings": {
-          "url_key": "www.corneliajames.com",
-          "lang": "auto"
-        }
-      },
-      "15316669992541710076": {
-        "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-snippet\/92a082e5-b297-4e88-b428-ac96cbc505f9",
-        "disabled": false,
-        "settings": {
-          "star": "#1c1b1b",
-          "snippet_mode": "default",
-          "text": "Reviews",
-          "line_break": false,
-          "show_popup": true,
-          "anchor_to_reviews_widget": false
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Allure": {
